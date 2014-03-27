@@ -21,6 +21,7 @@
 		DE93C74418E4706400EC0606 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE93C72618E4706400EC0606 /* UIKit.framework */; };
 		DE93C74C18E4706400EC0606 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE93C74A18E4706400EC0606 /* InfoPlist.strings */; };
 		DE93C74E18E4706400EC0606 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE93C74D18E4706400EC0606 /* Git_TestTests.m */; };
+		DE93C75918E4756B00EC0606 /* PHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DE93C75818E4756B00EC0606 /* PHTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DE93C74918E4706400EC0606 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		DE93C74B18E4706400EC0606 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE93C74D18E4706400EC0606 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		DE93C75718E4756B00EC0606 /* PHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHTest.h; sourceTree = "<group>"; };
+		DE93C75818E4756B00EC0606 /* PHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		DE93C71618E4706400EC0606 = {
 			isa = PBXGroup;
 			children = (
+				DE93C75718E4756B00EC0606 /* PHTest.h */,
+				DE93C75818E4756B00EC0606 /* PHTest.m */,
 				DE93C72818E4706400EC0606 /* Git Test */,
 				DE93C74718E4706400EC0606 /* Git TestTests */,
 				DE93C72118E4706400EC0606 /* Frameworks */,
@@ -252,6 +257,7 @@
 				DE93C73318E4706400EC0606 /* PHAppDelegate.m in Sources */,
 				DE93C73918E4706400EC0606 /* PHViewController.m in Sources */,
 				DE93C72F18E4706400EC0606 /* main.m in Sources */,
+				DE93C75918E4756B00EC0606 /* PHTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
